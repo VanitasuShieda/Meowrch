@@ -46,10 +46,10 @@ BASE = Packages(
             "dunst", "xorg-xsetroot", "picom"
 		],
 		hyprland_packages=[
-			"hyprland", "waybar", "hyprlock", "swww", "wl-clipboard", 
+			"hyprland", "hyprlock", "swww", "wl-clipboard", 
             "xdg-desktop-portal-hyprland", "qt5-wayland", "qt6-wayland",
 			"xdg-desktop-portal-wlr", "hypridle", "hyprpicker", "wlr-randr",
-            "uwsm", "libnewt", "swaync", "wl-clip-persist"
+            "uwsm", "libnewt", "wl-clip-persist"
         ]
 	),
 	aur=DistributionPackages(
@@ -77,7 +77,7 @@ BASE = Packages(
 		],
 		bspwm_packages=["xkb-switch", "i3lock-color"],
 		hyprland_packages=[
-			"hyprprop", "grimblast-git", "mewline"
+			"hyprprop", "grimblast-git", "caelestia-shell"
 		]
 	)
 )
