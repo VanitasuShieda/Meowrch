@@ -1,74 +1,25 @@
 <div align="center">
 
-<a href="https://meowrch.github.io/"><img src=".meta/logo.png" width="280px" alt="Meowrch Logo"></a>
+<a href="https://github.com/VanitasuShieda/Meowrch/tree/Meowrch-vanitasu"><img src=".meta/logocircle.png" width="280px" alt="Meowrch Logo"></a>
 
 # ≽ܫ≼ Meowrch
 
-### *Arch Linux. Evolved.*
-**Where performance meets aesthetics**
+# ⚡ Vanitas OS
+
+### *Based on Meowrch. Built for my workflow.*
+**Experimental UI. Unified control. Beautiful by design.**
 
 <br>
 
-[![Issues](https://img.shields.io/github/issues/meowrch/meowrch?color=ffb29b&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/meowrch/issues)
-[![Stars](https://img.shields.io/github/stars/meowrch/meowrch?color=fab387&labelColor=1C2325&style=for-the-badge)](https://github.com/meowrch/meowrch/stargazers)
-[![License](https://img.shields.io/github/license/meowrch/meowrch?color=FCA2AA&labelColor=1C2325&style=for-the-badge)](./LICENSE)
-
-
-[![README RU](https://img.shields.io/badge/README-RU-blue?color=cba6f7&labelColor=1C2325&style=for-the-badge)](./README.ru.md)
-[![README ENG](https://img.shields.io/badge/README-ENG-blue?color=C9CBFF&labelColor=C9CBFF&style=for-the-badge)](./README.md)
 
 <br>
 
-[🚀 Quick Start](#-installation) • [📸 Gallery](#-visual-presentation) • [⚡ Features](#-why-meowrch) • [📖 Wiki](https://meowrch.github.io/en/) • [💬 Community](https://t.me/meowrch)
+<!-- [🚀 Quick Start](#-installation) • [📸 Gallery](#-visual-presentation) • [⚡ Features](#-why-meowrch) • [📖 Wiki](https://meowrch.github.io/en/) • [💬 Community](https://t.me/meowrch) -->
 
 </div>
 
 ---
 
-## 🎯 Why Another Rice?
-
-**Most ready-made rice setups for Arch solve only one problem:**
-
-- Either **beauty**, but the system eats RAM.
-- Or **performance**, but the UI looks ugly.
-- Or **functionality**, but the code turns into "spaghetti" that you can't fix yourself.
-
-### **Meowrch is a different approach:**
-
-We don't sacrifice one for the other. Instead, we create a system where each component is chosen based on the principle of **"maximum results with minimum resources"**.
-
-**But most importantly** — we don't limit ourselves to beautiful configs.
-
-We create **our own tools** that solve **long-standing pain points of the entire Linux community**:
-<table> 
-  <tr> 
-  <td>
-🏷️ Nemo Tags
-
-For 10+ years the community requested a tagging system for Nemo.
-Developers ignored it. We made it.
-
-Now file organization like in macOS Finder is available to everyone.
-  </td> 
-  </tr>
-  <tr> 
-  <td>
-🩸 BlueVein
-
-Dual-boot Windows/Linux = Bluetooth hell.
-Switched OS? Reconnect your mouse, keyboard, headphones.
-**Every. Single. Time.**
-
-We solved this agonizing problem.
-  </td> 
-  </tr> 
-</table>
-
-> [!NOTE]
-> **All our tools are open-source** and work not only in Meowrch. \
-> We develop an ecosystem **for the entire Linux community**, not just "making it pretty for ourselves".
-
----
 
 ## 🌟 Why Meowrch?
 
@@ -86,67 +37,76 @@ We solved this agonizing problem.
 </div>
 
 ---
+# 🧬 About
 
-## 📸 Visual Presentation
+This project is my personal fork of Meowrch.
 
-<table align="center">
-  <tr>
-    <td colspan="3">
-        <a href="https://youtu.be/ZZnBopmVzz4">
-            <img src=".meta/assets/video-preview-youtube.png" width="100%" alt="Meowrch Video Preview">
-        </a>
-    </td>
-  </tr>
-  <tr>
-    <td><img src=".meta/assets/1.png" alt="Basic applications and widgets"></td>
-    <td><img src=".meta/assets/2.png" alt="Desktop music visualization use case demonstration."></td>
-    <td><img src=".meta/assets/3.png" alt="Adobe software functionality demonstration (Photoshop, AfterEffects)"></td>
-  </tr>
-  <tr>
-    <td><img src=".meta/assets/4.png" alt="Latest Steam games functionality demonstration with complex protection technologies like Denuvo (using Mafia: The Old Country as example)"></td>
-    <td><img src=".meta/assets/5.png" alt="VSCode workflow demonstration"></td>
-    <td><img src=".meta/assets/6.png" alt="Desktop wallpaper change animation demonstration via mewline dynamic island"></td>
-  </tr>
-</table>
+It keeps the performance philosophy and core optimizations,
+but replaces the official interface stack with a different vision.
 
----
+This is not an official build.
+This is my workstation.
 
-## 🏝️ Meet [Mewline](https://github.com/meowrch/mewline) — Dynamic Island for Linux
+# 🧪 Why This Exists
 
-### **Compact interface, maximum information:**
+Meowrch is powerful.
 
-- **System tray** — all your background applications
-- **Workspaces** — quick switching between desktops
-- **Date & Time** — always visible
-- **Brightness** — screen brightness control
-- **Volume** — sound control
-- **Battery** — charge and charging status
-- **Power** — power management menu
-- **OCR** — text recognition from selected screen area.
+But I wanted:
 
-### **Interactive system control center:**
+* A different interaction layer
+* Fewer independent UI daemons
+* A more cohesive shell experience
+* A design tuned to my personal workflow
 
-- **Compact mode** — information about active window and playing music
-- **Information menu** — calendar and notification history (Super+Alt+D)
-- **App launcher** — application launcher (Super+Alt+A)
-- **Wallpapers** — wallpaper change with preview (Super+Alt+W)
-- **Emoji picker** — emoji selection (Super+Alt+.)
-- **Clipboard** — clipboard history (Super+Alt+V)
-- **Network manager** — Wi-Fi and Ethernet (Super+Alt+N)
-- **Workspaces** — windows and workspaces manager (Super+Alt+Tab)
-- **Bluetooth** — device management (Super+Alt+B)
+So I rebuilt the UI stack around a single core layer.
 
-> [!NOTE]
-> Yes-yes. **All this is in one utility**. \
-> Instead of configuring Rofi + Waybar + Dunst + wlogout + network-manager-applet + clipboard manager — **one installation command**.
+# 🧠 UI Architecture
 
+Removed:
 
-<div align="center">
+* ❌ Mewline (for now, dont know the future jet)
+* ❌ Waybar
+* ❌ Swaync
 
-**[📖 Full Mewline documentation](https://github.com/meowrch/mewline)** -  **[🐛 Report an issue](https://github.com/meowrch/mewline/issues)**
+Replaced with:
 
-</div>
+* ✅ CaelestiaShell as the central control layer
 
+Panel, launcher, notifications, and system controls flow through one interface philosophy.
+
+Less fragmentation.
+More cohesion.
+Cleaner debugging.
+
+# 🖥️ Core Stack
+| Layer       | Component                 |
+| ----------- | ------------------------- |
+| Base        | Arch Linux (Optimized)    |
+| WM          | Hyprland / BSPWM          |
+| UI Layer    | CaelestiaShell            |
+| Terminal    | Kitty (Catppuccin tuned)  |
+| Shell       | Fish / Zsh                |
+| System Info | Fastfetch (custom themed) |
+
+# 🎨 Design Language
+
+* Circuit-inspired branding
+* Meowrch cat at the core (homage to origin)
+* Dark-first palette
+* Terminal-focused workflow
+* Smooth animations, minimal clutter
+
+# ⚠️ Disclaimer
+
+This is a personal experimental branch.
+
+It may break.
+It may change.
+It evolves with my workflow.
+
+If you want the official experience — use Meowrch.
+
+If you want my experiments — welcome.
 ---
 
 ## 🛠️ Installation
@@ -161,7 +121,7 @@ We solved this agonizing problem.
 
 ```
 # 1. Clone the repository
-git clone https://github.com/meowrch/meowrch --depth 1 --single-branch
+git clone https://github.com/VanitasuShieda/Meowrch/tree/Meowrch-vanitasu --depth 1 --single-branch
 cd meowrch
 
 # 2. Run the installer
@@ -173,50 +133,6 @@ reboot
 
 ---
 
-## 📋 What do you get after installation?
-
-<table align="center">
-<tr>
-<th width="30%">Component</th>
-<th width="70%">Details</th>
-</tr>
-<tr>
-<td><b>🐧 Base OS</b></td>
-<td><a href="https://archlinux.org/">Arch Linux</a> + <a href="https://meowrch.github.io/en/optimization/performance-advantages/">aggressive optimization</a>
-</tr>
-<tr>
-<td><b>🪟 Window Managers</b></td>
-<td><a href="https://github.com/baskerville/bspwm">BSPWM</a> (X11) | <a href="https://hyprland.org/">Hyprland</a> (Wayland)</td>
-</tr>
-<tr>
-<td><b>📊 Panels</b></td>
-<td><a href="https://github.com/polybar/polybar">Polybar</a> | <a href="https://github.com/Alexays/Waybar">Waybar</a> | <a href="https://github.com/meowrch/mewline">Mewline</a></td>
-</tr>
-<tr>
-<td><b>🎨 Customization</b></td>
-<td><a href="https://github.com/meowrch/pawlette">Pawlette</a> with preinstalled Catppuccin Mocha theme</td>
-</tr>
-<tr>
-<td><b>🖥️ Terminal</b></td>
-<td><a href="https://github.com/kovidgoyal/kitty">Kitty</a></td>
-</tr>
-<tr>
-<td><b>🐚 Shells</b></td>
-<td><a href="https://github.com/fish-shell/fish-shell">Fish</a> | <a href="https://www.zsh.org">Zsh</a></td>
-</tr>
-<tr>
-<td><b>📱 Menus and Widgets</b></td>
-<td><a href="https://github.com/davatorium/rofi">Rofi</a> | <a href="https://github.com/meowrch/mewline">Mewline</a></td>
-</tr>
-<tr>
-<td><b>🔔 Notifications</b></td>
-<td><a href="https://github.com/dunst-project/dunst">Dunst</a> | <a href="https://github.com/ErikReider/SwayNotificationCenter">Swaync</a> | <a href="https://github.com/meowrch/mewline">Mewline</a></td>
-</tr>
-<tr>
-<td><b>📦 Repositories</b></td>
-<td><a href="https://wiki.archlinux.org/title/Official_repositories">Arch Official</a> + <a href="https://aur.chaotic.cx/">Chaotic AUR</a></td>
-</tr>
-</table>
 
 > [!NOTE]
 > **Why these components?**
@@ -240,6 +156,8 @@ reboot
 
 > [!TIP]
 > **All available hotkeys** can be found [**here**](https://meowrch.github.io/en/usage/hotkeys/#meowrch-hotkeys).
+> **Show available hotkeys in System**  Super +  /  
+
 
 ---
 
@@ -251,7 +169,7 @@ reboot
 <img src=".meta/assets/wiki-banner-en.png" width="80%" alt="Meowrch Wiki">
 </a>
 
-**[🌐 Official Wiki](https://meowrch.github.io/)** — guides, FAQ, troubleshooting
+**[🌐 Official Wiki of Meowrch](https://meowrch.github.io/)** — guides, FAQ, troubleshooting
 
 <br>
 
@@ -308,7 +226,7 @@ Share your impressions about the distribution
 
 ---
 
-## ☕ Support the Project
+## ☕ Support the Original Meowrch Project
 
 <div align="center">
 
