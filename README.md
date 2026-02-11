@@ -17,6 +17,7 @@
 <!-- [🚀 Quick Start](#-installation) • [📸 Gallery](#-visual-presentation) • [⚡ Features](#-why-meowrch) • [📖 Wiki](https://meowrch.github.io/en/) • [💬 Community](https://t.me/meowrch) -->
 
 </div>
+
 ---
 
 # 🧬 About
