@@ -9,33 +9,14 @@
 ### *Based on Meowrch. Built for my workflow.*
 **Experimental UI. Unified control. Beautiful by design.**
 
-<br>
+<!-- <br>
 
 
-<br>
+<br> -->
 
 <!-- [🚀 Quick Start](#-installation) • [📸 Gallery](#-visual-presentation) • [⚡ Features](#-why-meowrch) • [📖 Wiki](https://meowrch.github.io/en/) • [💬 Community](https://t.me/meowrch) -->
 
 </div>
-
----
-
-
-## 🌟 Why Meowrch?
-
-<div align="center">
-
-| Feature | What it gives you |
-|:---:|:---|
-| **Optimization** | The system has the best optimizations from [ARU](https://github.com/ventureoo/ARU) and [CachyOS](https://cachyos.org/). [More details](https://meowrch.github.io/en/optimization/performance-advantages/) |
-| **Community [theme store](https://github.com/meowrch/pawlette-themes)** | Change the appearance of the entire system **with one command** |
-| **Open-source development** | We support Linux development by creating our own components, **useful for the global Linux community**. [**More details here**](https://github.com/meowrch/) |
-| **Automation** | Installation **in 10 minutes**, complete setup and optimization — **without manual config editing** |
-| **Ergonomics** | Hotkeys are thought out **down to the smallest detail** — work faster |
-| **Two environments** | BSPWM (X11) or Hyprland (Wayland) — **stability or modernity** |
-| **Lightweight** |  **1 GB RAM** at system startup — thanks to [lightweight components](https://meowrch.github.io/en/introduction/сomponent-selection-philosophy/) |
-</div>
-
 ---
 # 🧬 About
 
@@ -107,6 +88,24 @@ It evolves with my workflow.
 If you want the official experience — use Meowrch.
 
 If you want my experiments — welcome.
+---
+
+
+## 🌟 Why Meowrch?
+
+<div align="center">
+
+| Feature | What it gives you |
+|:---:|:---|
+| **Optimization** | The system has the best optimizations from [ARU](https://github.com/ventureoo/ARU) and [CachyOS](https://cachyos.org/). [More details](https://meowrch.github.io/en/optimization/performance-advantages/) |
+| **Community [theme store](https://github.com/meowrch/pawlette-themes)** | Change the appearance of the entire system **with one command** |
+| **Open-source development** | We support Linux development by creating our own components, **useful for the global Linux community**. [**More details here**](https://github.com/meowrch/) |
+| **Automation** | Installation **in 10 minutes**, complete setup and optimization — **without manual config editing** |
+| **Ergonomics** | Hotkeys are thought out **down to the smallest detail** — work faster |
+| **Two environments** | BSPWM (X11) or Hyprland (Wayland) — **stability or modernity** |
+| **Lightweight** |  **1 GB RAM** at system startup — thanks to [lightweight components](https://meowrch.github.io/en/introduction/сomponent-selection-philosophy/) |
+</div>
+
 ---
 
 ## 🛠️ Installation
